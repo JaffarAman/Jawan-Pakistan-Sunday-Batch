@@ -14,7 +14,7 @@ function App() {
       {/* <TodoApp /> */}
       <Routes>
         <Route path="/" element={<Login />}></Route>
-        <Route path="/signup" element={<SignUp />}></Route>
+        <Route path="signup" element={<SignUp />}></Route>
 
         <Route element={<ProtectedRoute />}>
           <Route path="/todo" element={<Todo />}></Route>
