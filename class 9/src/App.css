@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box1 {
+  width: 100;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box2 {
+  width: 70%;
+}
+
+.inputBox {
+  width: 100%;
+  padding: 20px 40px;
+}
+.inputBox input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #555;
+  border-radius: 8px;
+  font-family: monospace;
+  outline: none;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardWrapper {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 50%;
+}
+
+.cardWrapper img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.profileListing{
+  padding: 20px 30px;
+}
+.profileListing li{
+    list-style-type: none;
+    margin: 10px 0;
+    border-bottom:1px solid black ;
+    padding: 5px 0;
+}
